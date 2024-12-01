@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" class="arkaplan">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Gamingt</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+
+    <!-- Navbar  -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: black;">
+<a class="navbar-brand" style="position: relative; bottom: 13px; right: -10px;" href="#"><img src="img/logo.png" alt=""></a>
+<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+    <form class="d-flex">
+        <div class="input-group" style="position: relative; bottom: 10px; right: 42px;">
+            <input class="form-control rounded-left" type="search" placeholder="Oyun Ara" aria-label="Search" style="width: 400px">
+            <button class="btn btn-outline-secondary rounded-right" type="button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </form>
+</div>
+<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+    <span class="navbar-toggler-icon"></span>
+</button>
+</nav>
+
+<!-- Offcanvas Açılır Pencere -->
+<div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+<div class="offcanvas-header">
+    <h5 class="offcanvas-title text-white" id="offcanvasExampleLabel">Tüm Oyunlar</h5>
+    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+    <form class="d-flex mb-3">
+        <div class="input-group">
+            <input class="form-control rounded-left" type="search" placeholder="Oyun Ara" aria-label="Search">
+            <button class="btn btn-outline-secondary rounded-right" type="button">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </form>
+    <ul class="list-unstyled">
+        <li><a href="#" class="text-white">Aksiyon Oyunları</a></li>
+        <li><a href="#" class="text-white">Aşk Oyunları</a></li>
+        <li><a href="#" class="text-white">Savaş Oyunları</a></li>
+        <li><a href="#" class="text-white">2 kişilik oyunlar</a></li>
+    </ul>
+</div>
+</div>
+
+    
+        <!-- Marka Tanıtım -->
+        <header class="hero bg-dark text-white text-center">
+            <div class="container">
+                <h1 class="display-4">İBRAHİMİN Oyun dünyasına hoşgeldiniz</h1>
+                <p class="lead">Kendi oyunlarımızı burada sergiliyoruzz!</p>
+                <a href="#" class="btn btn-primary btn-lg">Kategorilere göz at!</a>
+            </div>
+        </header>
+    
+        <!-- Oyun Alanı -->
+        <section class="games py-5">
+            <div class="container">
+                <div class="row">
+                    <h1 class="text-center">KARIŞIK OYUNLAR</h1>
+                    <div class="col-md-3 col-sm-6 col-6" id="Savaşmatik">
+                        <div class="card bg-dark text-white mb-4">
+                            <img src="img/savaş.jpeg" class="card-img-top" alt="Game 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Savaşmatik!!</h5>
+                                <p class="card-text">Mükemmel bir savaş oyunu! Keyiften 4 köşe olacaksınız</p>
+                                <a href="#" class="btn btn-primary" style="width: 100%;">DOWNLOAD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6" id="IssızAda">
+                        <div class="card bg-dark text-white mb-4">
+                            <img src="img/ada.jpeg" class="card-img-top" alt="Game 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Issız ada</h5>
+                                <p class="card-text">Issız adada bir yaşam mücadelesi, Sen seçildin!</p>
+                                <a href="#" class="btn btn-primary" style="width: 100%;">DOWNLOAD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6" id="MantıklıAşk">
+                        <div class="card bg-dark text-white mb-4">
+                            <img src="img/öpme.jpeg" class="card-img-top" alt="Game 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Mantıklı Aşk</h5>
+                                <p class="card-text">Aşkta yürek gerek anlasanaaa, Yüreğini ortaya koy!
+
+                                </p>
+                                <a href="#" class="btn btn-primary" style="width: 100%;" >DOWNLOAD</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-6" id="IssızAda">
+                        <div class="card bg-dark text-white mb-4">
+                            <img src="img/ada.jpeg" class="card-img-top" alt="Game 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Issız ada</h5>
+                                <p class="card-text">Issız adada bir yaşam mücadelesi, Sen seçildin!</p>
+                                <a href="#" class="btn btn-primary" style="width: 100%;">DOWNLOAD</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Bilgilendirme -->
+        <footer class="bg-dark text-white py-4">
+            <div class="container text-center">
+                <p>&copy; Abdullah Gaming. Tüm hakları saklıdır.</p>
+            </div>
+        </footer>
+    
+        <script>
+            document.querySelector('.navbar-toggler').addEventListener('click', function() {
+                const sidebar = document.getElementById('sidebar');
+                sidebar.classList.toggle('show');
+            });
+    
+            // Close sidebar when clicking outside
+            document.addEventListener('click', function(event) {
+                const sidebar = document.getElementById('sidebar');
+                if (!sidebar.contains(event.target) && !document.querySelector('.navbar-toggler').contains(event.target)) {
+                    sidebar.classList.remove('show');
+                }
+            });
+        </script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+<script src="https://cdn-client.medium.com/lite/static/js/PostPage.MainContent.3a034230.chunk.js"></script>
+<script>window.main();</script><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" 
+integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+data-cf-beacon="{&quot;rayId&quot;:&quot;8983a9f76e88721e&quot;,&quot;version&quot;:&quot;2024.4.1&quot;,&quot;token&quot;:&quot;0b5f665943484354a59c39c6833f7078&quot;}" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
